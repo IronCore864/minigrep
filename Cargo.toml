@@ -1,0 +1,9 @@
+[package]
+name = "minigrep"
+version = "0.1.0"
+authors = ["Tiexin Guo <guotiexin@gmail.com>"]
+edition = "2018"
+description = "A commandline tool that greps a needle in the hay. Support case-sensitive search; default not."
+license = "MIT OR Apache-2.0"
+
+[dependencies]
