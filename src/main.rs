@@ -1,7 +1,7 @@
 use std::env;
 use std::process;
 
-use minigrep::config::Config;
+use minigrep_ironcore864::config::Config;
 
 fn main() {
     let config = Config::new(env::args()).unwrap_or_else(|err| {
@@ -9,7 +9,7 @@ fn main() {
         process::exit(1);
     });
 
-    if let Err(e) = minigrep::run(config) {
+    if let Err(e) = minigrep_ironcore864::run(config) {
         eprintln!("Application error: {}", e);
 
         process::exit(1);
