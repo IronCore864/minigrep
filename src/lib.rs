@@ -1,5 +1,9 @@
 //! A commandline tool that greps a string in a file.
 //! Case-sensitive search can be enabled by setting ENV var CASE_SENSITIVE=true; defaults to false.
+//! # Example:
+//! ```rust
+//! minigrep string filename
+//! ```
 
 use std::error::Error;
 use std::fs;
