@@ -1,7 +1,7 @@
 //! A commandline tool that greps a string in a file.
 //! Case-sensitive search can be enabled by setting ENV var CASE_SENSITIVE=true; defaults to false.
-//! # Example:
-//! ```rust
+//! # Usage:
+//! ```bash
 //! minigrep string filename
 //! ```
 
