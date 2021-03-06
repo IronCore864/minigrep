@@ -1,5 +1,5 @@
 [package]
-name = "minigrep"
+name = "minigrep_ironcore864"
 version = "0.1.0"
 authors = ["Tiexin Guo <guotiexin@gmail.com>"]
 edition = "2018"
